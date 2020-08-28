@@ -12,6 +12,7 @@ app.set('view engine', 'ejs');
 app.use(require('./routes/'));
 
 // Archivos estáticos (Static Files)
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Escuchando el servidor (Listening the Server)
 app.listen(app.get('port'), () => {
