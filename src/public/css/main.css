@@ -2,3 +2,42 @@ body{
     /*font-family: 'Spicy Rice', cursive;*/
     font-family: 'Open Sans', sans-serif;
 }
+
+#navbarNav {
+    font-size: large;
+}
+
+#tituloNavBar {
+    font-size: x-large;
+}
+
+#container-header {
+    height: 500px;
+}
+
+#header-background {
+    background-color: #334752;
+    position: absolute;
+    width: 0;
+    height: 500px;
+    transition: 1s ease-in-out;
+}
+
+#header-text {
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+
+#botonheader {
+    padding: .75rem 2rem;
+}
+
+#logo-ropa {
+    width: 110%;
+    display: table-cell;
+    vertical-align: bottom;
+    opacity: 0;
+    z-index: 1000;
+    transition: 2s ease-in-out;
+    position: relative;
+}
